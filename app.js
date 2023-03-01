@@ -16,7 +16,7 @@ const copyPassword = () => {
     navigator.clipboard.writeText(colorInput.value);
     copyIcon.innerText = 'check';
     setTimeout(() => {
-        copyIcon.innerText = "copy"
+        copyIcon.innerText = "Copy"
     }, 2000)
 }
 
